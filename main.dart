@@ -1,4 +1,8 @@
 import 'dart:io';
+import 'punto1.dart';
+import 'punto2.dart';
+import 'actividad3.dart';
+import 'actividad4.dart';
 import 'punto5.dart';
 import 'punto6.dart';
 void main(){
@@ -18,19 +22,19 @@ void main(){
 
     switch(opcion){
       case "1" : 
-
+      calcularDistancia();
       break;
 
       case "2": 
-
+      punto2();
       break;
 
       case "3": 
-
+      actividad3();
       break;
 
       case "4":
-
+      actividad4();
       break;
 
       case "5":
